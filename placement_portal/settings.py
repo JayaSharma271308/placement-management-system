@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-xzuq9ki@_!g*+@5tlq6!!&xhv%5=)8vk&n0ak-9hd#6z9@p--t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "placement-management-system-twig.onrender.com",
+    "127.0.0.1",
+    "localhost",
+]
 
 
 # Application definition
